@@ -1,0 +1,11 @@
+package LoginTestCase;
+
+public class AllTestcase extends intilization {
+
+	public void login()
+	intilization();
+	
+	{
+		
+	}
+}

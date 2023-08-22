@@ -1,0 +1,17 @@
+package LoginTestCase;
+
+import java.io.IOException;
+
+import Resorces.Newbaseclass;
+
+public class AllTestcase extends  Newbaseclass {
+
+
+	public void login() throws IOException 
+	{
+			
+	intilization();
+	
+	
+}
+}

@@ -1,0 +1,19 @@
+package Basicoftestng;
+
+import java.io.File;
+import java.io.FileInputStream;
+
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class Practice {
+
+	
+	 @test
+	 
+	   File file = new File ("\"C:\\\\Users\\\\Lenovo\\\\Desktop\\\\selenium class\\\\exelsheet\\\\Book1.xlsx\"");
+	 FileInputStream inputStream = new FileInputStream(file);
+	 XSSFWorkbook filename= xworkbook(inputstream);
+	 
+	}
+}

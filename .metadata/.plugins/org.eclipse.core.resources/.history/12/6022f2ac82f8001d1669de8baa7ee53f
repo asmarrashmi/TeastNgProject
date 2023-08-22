@@ -1,0 +1,19 @@
+package Basics_of_java;
+
+public class strings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String srt= "My_word";
+		char R= srt.charAt(3);
+		System.out.println(R);
+		
+		let text = "Hello World!";
+		let result = text.toString();
+		
+
+	}
+	
+	
+
+}

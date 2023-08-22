@@ -1,0 +1,26 @@
+package Basicoftestng;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+
+
+public class parameterrized {
+
+	
+	
+		@Test
+		
+		@Parameters("myName")
+		
+			public void method(String myName)
+		{
+			
+				System.out.println("My name is "+myName);
+		}
+			
+	
+			
+}

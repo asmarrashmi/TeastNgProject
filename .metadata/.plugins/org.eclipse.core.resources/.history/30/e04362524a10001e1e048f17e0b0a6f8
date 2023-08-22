@@ -1,0 +1,23 @@
+package Hashmap;
+
+import java.util.HashMap;
+
+public class CharacterCount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashMap<Character, Integer> obj = new HashMap<Character, Integer>();
+		String inputString= "RashmiR";
+		char[] strArray = inputString.toCharArray();
+		for( char c : strArray) {
+			HashMap<Character, Integer> charCountMap = new HashMap<Character, Integer>();
+			
+			if (charCountMap.containsKey(c)) {
+				charCountMap.put(c, charCountMap.get(c)+1);
+			}
+			
+		}
+		
+	}
+
+}

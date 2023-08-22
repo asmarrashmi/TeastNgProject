@@ -1,0 +1,32 @@
+package PageObject;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.BeforeMethod;
+
+public class LoginpageObject {
+	WebDriver driver;
+	By userName= By.xpath("//input[@id='username']");
+	By Password = By.xpath("//input[@id='password']");
+	By loginbtn = By.xpath("//input[@id='Login']");
+	public WebElement userName()
+	{
+		return driver.findElement(userName);
+	}
+	public WebElement Password()
+	{
+		return driver.findElement(Password);
+	}
+	public WebElement loginbtn()
+	{
+		return driver.findElement(loginbtn);
+	}
+}

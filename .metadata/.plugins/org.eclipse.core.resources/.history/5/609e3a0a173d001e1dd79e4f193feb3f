@@ -1,0 +1,16 @@
+package Verifylogin;
+
+import java.io.IOException;
+
+import FirstDemo.FirstProgram;
+
+public class Testcase extends FirstProgram {
+
+	public void initializeBrowser() throws IOException {
+		
+		FirstProgram obj = new FirstProgram();
+		obj.initializeBrowser();
+		
+	}
+	
+}

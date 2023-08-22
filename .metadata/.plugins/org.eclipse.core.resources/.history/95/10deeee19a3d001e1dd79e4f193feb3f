@@ -1,0 +1,27 @@
+package LoginTestCase;
+
+import java.io.IOException;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import Resorces.Newbaseclass;
+
+public class AllTestcase extends  Newbaseclass {
+
+	@Test
+	public void login() throws IOException 
+	{
+		
+	
+	
+	
+	
+}
+	@BeforeMethod
+	public void OpenApplication() throws IOException
+	{
+		intilization();
+		driver.get("https://login.salesforce.com/?locale=in");
+	}
+}

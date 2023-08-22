@@ -1,0 +1,22 @@
+package Verifylogin;
+
+import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import FirstDemo.BaseClass;
+import FirstDemo.FirstProgram;
+import PageObject.LoginpageObject;
+
+public class Testcase extends  BaseClass {
+
+	public void initializeBrowser() throws IOException {
+		
+		BaseClass obj = new BaseClass();
+		obj.intilization();
+
+		 
+	}
+	
+}

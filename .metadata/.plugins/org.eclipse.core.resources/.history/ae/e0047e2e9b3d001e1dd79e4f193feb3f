@@ -1,0 +1,36 @@
+package LoginTestCase;
+
+import java.io.IOException;
+
+import javax.security.auth.spi.LoginModule;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import Resorces.Newbaseclass;
+
+public class AllTestcase extends  Newbaseclass 
+{
+
+	public AllTestcase(WebDriver driver2) {
+		super(driver2);
+		// TODO Auto-generated constructor stub
+	}
+	@Test
+	public void login() throws IOException 
+	{
+		Newbaseclass objLoginpagepath = new Newbaseclass(driver);
+		
+	
+	
+	
+	
+}
+	@BeforeMethod
+	public void OpenApplication() throws IOException
+	{
+		intilization();
+		driver.get("https://login.salesforce.com/?locale=in");
+	}
+}

@@ -1,0 +1,17 @@
+package Resorces;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class Newbaseclass {
+
+	public void intilization() throws FileNotFoundException
+	{
+		//for file
+		FileInputStream fis = new FileInputStream("user.dir"+"\\src\\main\\java\\Resorces\\Properties");
+		
+		String properties pros = new properties();
+		
+	}
+	
+}

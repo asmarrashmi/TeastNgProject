@@ -1,0 +1,23 @@
+package Verifylogin;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+import FirstDemo.BaseClass;
+import PageObject.LoginpageObject;
+
+public class Testcase extends  BaseClass {
+	@Test
+	public void login() throws IOException {
+		intilization();
+		 driver.get("https://login.salesforce.com/?locale=in");
+		 LoginpageObject objLoginpagepath = new LoginpageObject();
+		 objLoginpagepath.userName().sendKeys("rashmi");
+		 objLoginpagepath.Password().sendKeys("Rashmi123");
+		 objLoginpagepath.loginbtn().click();
+	
+		 
+	}
+	
+}

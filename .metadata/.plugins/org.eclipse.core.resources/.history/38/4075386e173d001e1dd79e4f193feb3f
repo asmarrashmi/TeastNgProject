@@ -1,0 +1,47 @@
+package Verifylogin;
+
+import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import FirstDemo.BaseClass;
+import FirstDemo.FirstProgram;
+import PageObject.LoginpageObject;
+
+public class Testcase extends  BaseClass {
+
+	public void initializeBrowser() throws IOException {
+		
+		FirstProgram obj = new FirstProgram();
+		obj.initializeBrowser();
+
+		  @Test
+		  public void login() throws IOException {
+		    LoginpageObject LOP = new LoginPageObjects(driver);
+		    LOP.enterUsername().sendKeys("User1");
+		    LOP.enterPassword().sendKeys("Test1");
+		    LOP.clickOnLoginButton().click();
+		    Assert.assertEquals(10, 10);
+		    System.out.println("Login validated successfully...");
+		  }
+		  
+		  @Test
+		  public void invalidlogin() throws IOException, InterruptedException {
+		    
+		    LoginPageObjects LOP = new LoginPageObjects(driver);
+		    LOP.enterUsername().sendKeys("User1");
+		    LOP.enterPassword().sendKeys("Test1");
+		    LOP.clickOnLoginButton().click();
+		    //Assert.assertEquals(10, 10);
+		    String actualText=LOP.verifyError().getText();
+		    String expectedText="Please check your username and password. If you still can't log in, contact your Salesforce administrator.";
+		    Thread.sleep(3000);
+		    Assert.assertEquals(actualText, expectedText);
+		    System.out.println("Invalid Login Tested successfully...");
+		  }
+
+		}
+	}
+	
+}
