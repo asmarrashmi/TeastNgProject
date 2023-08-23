@@ -1580,3 +1580,6 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2023-08-19 20:25:05,451 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\eclipse-workspace\HomeworkPro\src\main\resources
 2023-08-19 20:25:05,452 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-08-19 20:25:05,453 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\eclipse-workspace\HomeworkPro\src\test\resources
+2023-08-23 16:04:51,028 [Worker-234: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-23 16:04:51,029 [Worker-234: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\eclipse-workspace\HomeworkPro\src\main\resources
+2023-08-23 16:04:51,030 [Worker-234: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
