@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="int i,j;"/>
+		<item key="selection" value="public WebElement jobtitledrop()"/>
 		<list key="findhistory">
+			<item value="public WebElement jobtitledrop()"/>
 			<item value="int i,j;"/>
 			<item value="&#x09;int i,j;"/>
 			<item value="System.setProperty(&quot;webdriver.chrome.driver&quot;,&quot;E:\\Automation jar files\\driver\\chromedriver.exe&quot;);"/>

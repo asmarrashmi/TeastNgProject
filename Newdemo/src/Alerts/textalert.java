@@ -15,8 +15,8 @@ public class textalert {
 		driver.get("https://demo.guru99.com/test/delete_customer.php");
 		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("rashmi");
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
-		driver.switchTo().alert().accept();
-		
+		driver.switchTo().alert().dismiss();
+		driver.close();
 	}
 
 }

@@ -25,8 +25,9 @@ public class Simple_alert {
 		 
 		 //for dismiss message.
 		 driver.findElement(By.xpath("//input[@id='confirmbtn']")).click();
-		 Thread.sleep(8000);
+		 //Thread.sleep(8000);
 		 driver.switchTo().alert().dismiss();
+		 driver.close();
 		
 		 
 	}
