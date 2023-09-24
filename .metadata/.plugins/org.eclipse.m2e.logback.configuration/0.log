@@ -2721,3 +2721,5 @@ Caused by: java.util.NoSuchElementException: null
 2023-09-24 13:31:43,096 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\eclipse-workspace\PracticeFramework\src\test\resources
 2023-09-24 13:34:22,735 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-09-24 13:34:22,735 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\eclipse-workspace\PracticeFramework\src\main\resources
+2023-09-24 13:34:22,749 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-24 13:34:22,750 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Lenovo\eclipse-workspace\PracticeFramework\src\test\resources
